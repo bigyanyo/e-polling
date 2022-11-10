@@ -35,7 +35,7 @@ class DefaultSplashScreen extends StatelessWidget {
             //     fontSize: 24,
             //   ),
             // )
-            child: Image.asset('assets/images/app_logo.png'),
+            child: Image.asset('assets/images/app_logo1.png'),
           ),
           Consumer2<UserController, AppConfigController>(
               builder: (context, userController, appConfigController, child) {
